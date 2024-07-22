@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 backdrop-blur-sm">
+    <header className="sticky top-0 backdrop-blur-sm z-20">
       <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-3">
         <p className="hidden lg:flex text-white/60">
           This page is included in a free SaaS Website Kit.
